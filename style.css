@@ -1,0 +1,58 @@
+.dashboard {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+img {
+  width: 100vw;
+  height: 100vh;
+}
+.weather-data {
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #f4f0f9;
+}
+.time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #f4f0f9;
+}
+.qoutes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  background-color: #f4f0f9;
+}
+.recipe {
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  color: red;
+  background-color: #f4f0f9;
+}
+#recipe-img {
+  width: 100%;
+  height: 200px;
+}
+.pokemon {
+  text-align: center;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background-color: #f4f0f9;
+}
+#pokemon-img {
+  width: 200px;
+  height: 200px;
+}
